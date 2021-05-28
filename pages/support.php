@@ -1,7 +1,33 @@
-        <div class="container support">    
+<?php session_start() ?>
+<head>
+<html lang="ru">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fontawesome -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/ba83c27d7d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">  
+         <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Курсовая работа 407 ЛК</title>
+</head>
+<body>  
+    
+
+    <div class="container  support">
+        
+        <div class= "container">
             <div class="row secondary_block_header">
                 <h1>Моя поддержка</h1>
             </div>
+        </div>
+        
+
             <div class="container rounded mySupportBox1 ">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse tempore cupiditate voluptatum perferendis dolor fuga blanditiis quos magnam nihil architecto. Quos beatae id ipsam, illo veniam suscipit quisquam corporis voluptates?</p>
                 <div class="container rounded  mySupportBox2">
@@ -99,6 +125,8 @@
         </div>
 
     </div>
+
+    <!-- <script src="../js/main.js"></script> -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
